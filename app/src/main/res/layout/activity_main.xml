@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cdview0"
+      android:layout_width="260dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="75dp"
+      android:layout_marginTop="40dp"
+      app:cardCornerRadius="10dp"
+      app:cardElevation="12dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+        android:text="\nComputer Languages\n          Tutorials"
+        android:textSize="27dp"/>
+  </androidx.cardview.widget.CardView>
+
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cdview01"
+      android:layout_width="260dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="70dp"
+      android:layout_marginTop="250dp"
+      app:cardCornerRadius="10dp"
+      android:background="@color/black"
+      app:cardElevation="12dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="        Android App \n       Development\n           Tutorials"
+        android:textSize="28dp"/>
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cdview02"
+      android:layout_width="260dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="70dp"
+      android:layout_marginTop="460dp"
+      app:cardCornerRadius="10dp"
+      android:background="@color/black"
+      app:cardElevation="12dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="              Web \n       Development\n           Tutorials"
+        android:textSize="28dp"/>
+  </androidx.cardview.widget.CardView>
+</RelativeLayout>
